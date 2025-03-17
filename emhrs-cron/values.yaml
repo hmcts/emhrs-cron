@@ -88,7 +88,7 @@ job:
     UPDATE_TTL_CRONJOB_SCHEDULE: 0 15 17 26 8 * # Some time in future
     UPDATE_TTL_BATCH_SIZE: 10
     UPDATE_TTL_JOB_ENABLED: false
-  schedule: "0 0/10 * * *"
+  schedule: "0 0/15 * * *"
   concurrencyPolicy: Forbid
 global:
   jobKind: CronJob
