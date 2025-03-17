@@ -2,7 +2,7 @@ name: emhrs-cron pipeline
 trigger:
   branches:
     include:
-      - master
+      - main
 pr:
   branches:
     include:
