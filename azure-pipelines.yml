@@ -2,7 +2,7 @@ name: emhrs-cron pipeline
 trigger:
   branches:
     include:
-      - main
+      - refs/tags/*
 pr:
   branches:
     include:
