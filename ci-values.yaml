@@ -1,5 +1,5 @@
 job:
-  image: 'hmctspublic.azurecr.io/em/hrs-api:latest'
+  image: 'hmctsprod.azurecr.io/em/hrs-api:latest'
   aadIdentityName: em
   keyVaults:
     em-hrs-api:
