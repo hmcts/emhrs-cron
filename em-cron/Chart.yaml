@@ -1,6 +1,6 @@
-name: emhrs-cron
+name: em-cron
 description: EMHRS cron jobs
-home: https://github.com/hmcts/emhrs-cron
+home: https://github.com/hmcts/em-cron
 apiVersion: v2
 appVersion: "1.0"
 version: 0.0.4

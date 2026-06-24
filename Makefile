@@ -1,5 +1,5 @@
 .DEFAULT_GOAL := all
-CHART := emhrs-cron
+CHART := em-cron
 RELEASE := chart-${CHART}-release
 NAMESPACE := chart-tests
 TEST := ${RELEASE}-test-service
